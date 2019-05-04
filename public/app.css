@@ -1,26 +1,28 @@
+body{
+    background-color: #d5eef8;
+}
 .header__row{
     height: 15vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: 2px;
-    
-    
+    background-size: cover; 
 }
 .nav-link{
     color: rgb(0, 217, 255);
 }
 .nav-link:hover{
     color: rgb(246, 251, 255);
-}
-header{
-    background-color: beige;
+    transition: color 0.2s;
 }
 .social_media{
-    color: rgb(0, 217, 255);
+    color: #67c3e6;
     font-size: 1.8rem;
     
 }
 i:hover{
-    color: rgb(128, 235, 235);
+    color: #90d3ec;
+    transition: color 0.2s;
+}
+.calculate_btn{
+    display: inline-block;
 }
