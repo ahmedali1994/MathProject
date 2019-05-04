@@ -5,6 +5,8 @@ const express = require('express'),
 
 app.use(body_parser.urlencoded({ extended: true }));     
 app.set("view engine", "ejs");
+app.use(express.static("Public"));
+
 
 app.get('/',function(req,res){
     res.render('home');

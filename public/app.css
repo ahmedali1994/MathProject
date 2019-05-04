@@ -1,0 +1,26 @@
+.header__row{
+    height: 15vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 2px;
+    
+    
+}
+.nav-link{
+    color: rgb(0, 217, 255);
+}
+.nav-link:hover{
+    color: rgb(246, 251, 255);
+}
+header{
+    background-color: beige;
+}
+.social_media{
+    color: rgb(0, 217, 255);
+    font-size: 1.8rem;
+    
+}
+i:hover{
+    color: rgb(128, 235, 235);
+}
